@@ -15,5 +15,5 @@ def deposit(self,amount):
 def withdraw(self,amount):
     self.amount=amount
     self.withdraw-=amount
-    return self.balance
+    return self.amount
     return f"Your withdrawal is {amount} in account{self.account_number}. The balance is {self.balance}"    
